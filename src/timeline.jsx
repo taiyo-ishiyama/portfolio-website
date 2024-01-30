@@ -18,12 +18,12 @@ export default function Timeline({ defaultColor }) {
 
         return (
           <div key={element.id} className="flex m-4 relative">
-            <div
+            {/* <div
               className={`${color} w-0.5 h-6 translate-x-20 translate-y-56 opacity-60 sm:hidden`}
             ></div>
             <div
               className={`${color} w-0.5 h-6 translate-x-80 translate-y-56 opacity-60 sm:hidden`}
-            ></div>
+            ></div> */}
             <div className="hidden items-start w-44 pt-0.5 relative sm:flex">
               <div className="w-4/5 text-gray-500">{element.date}</div>
               <div
