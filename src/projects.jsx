@@ -14,7 +14,7 @@ const projects = [
       "Prioritized creating a seamless user experience for visitors.",
     ],
     thumbnail: portfolioImage,
-    githubLink: "https://github.com/taiyo-ishiyama",
+    githubLink: "https://github.com/taiyo-ishiyama/portfolio-website",
     tools: ["React", "Tailwindcss", "Git"],
   },
   {
