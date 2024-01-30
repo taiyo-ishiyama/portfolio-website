@@ -69,9 +69,9 @@ const ProjectShowcase = () => {
   return (
     <div className='w-full'>
       <div>
-          <p className='py-6 sm:text-center lg:text-left lg:pl-20 xl:pl-10 text-lg'>
+          <p className='py-6 text-center lg:text-left lg:pl-20 xl:pl-10 text-lg'>
             {" "}
-            These are the technologies I&apos;ve worked with
+            These are the projects I&apos;ve worked on
           </p>
         </div>
       <div className='max-w-screen-xl mx-auto p-4 flex justify-center w-full h-full text-white'>
