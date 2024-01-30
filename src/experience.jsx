@@ -89,7 +89,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full sm:h-screen'>
       <div className='max-w-screen-xl mx-auto  p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
           <p className='py-6'>
