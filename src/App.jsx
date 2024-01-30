@@ -76,7 +76,7 @@ function App() {
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2'>About me</h1>
             <div className='container flex items-center flex-col xl:flex-row'>
-              <div className='mr-10 mb-10'>
+              <div className='xl:mr-10 mb-10'>
                 <p className='pb-10'>
                   I am a third-year student enrolled at Griffith University,
                   pursuing a degree in Computer Science with a major in Software
