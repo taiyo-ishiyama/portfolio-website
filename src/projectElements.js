@@ -9,7 +9,6 @@ import teslaCloneImage from "./img/teslaCloneImage.png";
 import nonFieldRPGImage from "./img/nonFieldRPGImage.png";
 import neuralNetworkImage from "./img/neuralNetworkImage.jpg";
 
-
 const projects = [
   {
     id: 1,
@@ -69,7 +68,7 @@ const projects = [
     description: [
       "Developed a 2D role-playing game using Unity.",
       "Implemented various effects and audio to create an engaging gameplay experience.",
-      "Focused on creating a rich visual and auditory experience for players."
+      "Focused on creating a rich visual and auditory experience for players.",
     ],
     thumbnail: nonFieldRPGImage,
     githubLink: "https://github.com/taiyo-ishiyama/unity-non-fieldRPG",
@@ -82,7 +81,7 @@ const projects = [
     description: [
       "Developed a neural network to classify fashion items based on pixel data.",
       "Achieved an accuracy of 85% by optimizing the combination of epochs and batch size.",
-      "Focused on improving model performance and accuracy through experimentation and tuning."
+      "Focused on improving model performance and accuracy through experimentation and tuning.",
     ],
     thumbnail: neuralNetworkImage,
     githubLink: "https://github.com/taiyo-ishiyama/neural-network",
