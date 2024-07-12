@@ -58,9 +58,21 @@ function App() {
               myself and showcases my skillsets and projects. Feel free to
               contact me if you have any questions.
             </p>
-            <a href='#contact' className='text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-700 py-2 px-6 border-0 rounded text-lg'>
-              contact
-            </a>
+            <div className="flex flex-col space-y-4 items-center md:items-start">
+              <a
+                href='#contact'
+                className='inline-flex items-center justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-700 py-2 px-4 border-0 rounded text-lg'
+              >
+                Contact
+              </a>
+              <a
+                href='Taiyo_Ishiyama_Resume.pdf'
+                download='Taiyo_Ishiyama_Resume.pdf'
+                className='inline-flex items-center justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-700 py-2 px-4 border-0 rounded text-lg'
+              >
+                Download My Resume
+              </a>
+            </div>
           </div>
           <div className='md:w-1/2 lg:max-w-lg w-2/3'>
             <img src='./img/IMG1.jpg' alt='' />
@@ -118,7 +130,7 @@ function App() {
               Experience
             </h1>
           </div>
-            <Experience />
+          <Experience />
         </div>
       </section>
 
@@ -127,7 +139,7 @@ function App() {
         id='projects'
       >
         <div className='container px-5 py-24 mx-auto'>
-          <div className="text-center mb-20">
+          <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium text-white mb-10'>
               My projects
             </h1>
