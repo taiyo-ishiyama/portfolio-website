@@ -26,7 +26,7 @@ const timelineElements = [
     title: "Griffith University",
     location: "Gold Coast, Australia",
     description: "Bachelor of Computer Science with Software Development major",
-    gpa: "GPA 6.88 / 7.00",
+    gpa: "GPA 6.82 / 7.00",
     date: "2022-2025",
     icon: "school",
     color: "yellow",

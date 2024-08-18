@@ -52,19 +52,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Tesla Clone Website",
-    description: [
-      "Built a clone of the Tesla official website, focusing on its sleek design and functionality.",
-      "Ensured the site is fully responsive, adapting to different screen sizes and devices.",
-      "Added animation features to enhance user interaction and visual appeal.",
-    ],
-    thumbnail: teslaCloneImage,
-    githubLink: "https://github.com/taiyo-ishiyama/tesla-clone",
-    demoLink: "https://taiyo-ishiyama-tesla-clone.vercel.app",
-    tools: ["React", "Styled-Components", "Git"],
-  },
-  {
-    id: 5,
     title: "Mario Game with SFML",
     description: [
       "Developed a Mario-inspired 2D platformer game with a focus on smooth user interface and dynamic gameplay.",
@@ -77,6 +64,19 @@ const projects = [
     githubLink: "https://github.com/taiyo-ishiyama/mario-game",
     demoLink: "https://drive.google.com/file/d/13YJiz4fiO1je6Dd90WCnQzTZhFmtip6S/view?usp=sharing",
     tools: ["C++", "SFML", "Git"],
+  },
+  {
+    id: 5,
+    title: "Board Game",
+    description: [
+      "Designed and developed a Sudoku-like board game with expression completion and evaluation",
+      "Implemented Object-Oriented Programming (OOP) principles and utilized optimal data structures",
+      "Optimized game initialization and calculation processes for all valid solutions",
+    ],
+    thumbnail: boardgameImage,
+    githubLink: "https://github.com/taiyo-ishiyama/boardgame",
+    demoLink: "",
+    tools: ["C++", "Git"],
   },
   {
     id: 6,
@@ -93,6 +93,31 @@ const projects = [
   },
   {
     id: 7,
+    title: "Dictionary Program",
+    description: [
+      "Developed a dictionary program for pattern-based word searches and length matching.",
+      "Implemented efficient searching processes using pre-loaded data structures from a file.",
+    ],
+    thumbnail: dictionaryImage,
+    githubLink: "https://github.com/taiyo-ishiyama/pattern-dictionary",
+    demoLink: "",
+    tools: ["C++", "Git"],
+  },
+  {
+    id: 8,
+    title: "Tesla Clone Website",
+    description: [
+      "Built a clone of the Tesla official website, focusing on its sleek design and functionality.",
+      "Ensured the site is fully responsive, adapting to different screen sizes and devices.",
+      "Added animation features to enhance user interaction and visual appeal.",
+    ],
+    thumbnail: teslaCloneImage,
+    githubLink: "https://github.com/taiyo-ishiyama/tesla-clone",
+    demoLink: "https://taiyo-ishiyama-tesla-clone.vercel.app",
+    tools: ["React", "Styled-Components", "Git"],
+  },
+  {
+    id: 9,
     title: "Neural Network",
     description: [
       "Developed a neural network to classify fashion items based on pixel data.",
@@ -103,31 +128,6 @@ const projects = [
     githubLink: "https://github.com/taiyo-ishiyama/neural-network",
     demoLink: "",
     tools: ["Python", "Git"],
-  },
-  {
-    id: 8,
-    title: "Board Game",
-    description: [
-      "Designed and developed a Sudoku-like board game with expression completion and evaluation",
-      "Implemented Object-Oriented Programming (OOP) principles and utilized optimal data structures",
-      "Optimized game initialization and calculation processes for all valid solutions",
-    ],
-    thumbnail: boardgameImage,
-    githubLink: "https://github.com/taiyo-ishiyama/boardgame",
-    demoLink: "",
-    tools: ["C++", "Git"],
-  },
-  {
-    id: 9,
-    title: "Dictionary Program",
-    description: [
-      "Developed a dictionary program for pattern-based word searches and length matching.",
-      "Implemented efficient searching processes using pre-loaded data structures from a file.",
-    ],
-    thumbnail: dictionaryImage,
-    githubLink: "https://github.com/taiyo-ishiyama/pattern-dictionary",
-    demoLink: "",
-    tools: ["C++", "Git"],
   },
   {
     id: 10,
