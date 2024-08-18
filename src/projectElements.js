@@ -64,6 +64,21 @@ const projects = [
   },
   {
     id: 5,
+    title: "Mario Game with SFML",
+    description: [
+      "Developed a Mario-inspired 2D platformer game with a focus on smooth user interface and dynamic gameplay.",
+      "Implemented robust collision detection systems to ensure responsive player-environment interactions.",
+      "Created complex game logic that drives player controls, enemy AI, and environmental interactions.",
+      "Designed a dynamic camera system that smoothly follows the player, providing optimal gameplay visibility.",
+      "Integrated custom sprites, animations, and sound effects to enhance the retro-inspired aesthetic."
+    ],
+    thumbnail: marioGameImage,
+    githubLink: "https://github.com/taiyo-ishiyama/mario-game",
+    demoLink: "https://drive.google.com/file/d/13YJiz4fiO1je6Dd90WCnQzTZhFmtip6S/view?usp=sharing",
+    tools: ["C++", "SFML", "Git"],
+  },
+  {
+    id: 6,
     title: "Non Field RPG with Unity",
     description: [
       "Developed a 2D role-playing game using Unity.",
@@ -76,7 +91,7 @@ const projects = [
     tools: ["Unity", "C#", "Git"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Neural Network",
     description: [
       "Developed a neural network to classify fashion items based on pixel data.",
@@ -89,7 +104,7 @@ const projects = [
     tools: ["Python", "Git"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Board Game",
     description: [
       "Designed and developed a Sudoku-like board game with expression completion and evaluation",
@@ -102,7 +117,7 @@ const projects = [
     tools: ["C++", "Git"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Dictionary Program",
     description: [
       "Developed a dictionary program for pattern-based word searches and length matching.",
@@ -114,7 +129,7 @@ const projects = [
     tools: ["C++", "Git"],
   },
   {
-    id: 9,
+    id: 10,
     title: "Factorization Program",
     description: [
       "Developed a number factorization program with multi-threaded client-server architecture",
@@ -126,7 +141,7 @@ const projects = [
     tools: ["C", "Git"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Client-Server Game",
     description: [
       "Developed a multiplayer number-based game hosted on a server.",
