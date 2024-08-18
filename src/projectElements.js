@@ -7,6 +7,7 @@ import netflixCloneImage from "./img/netflixCloneImage.png";
 import disneyplusCloneImage from "./img/disneyplusCloneImage.png";
 import teslaCloneImage from "./img/teslaCloneImage.png";
 import nonFieldRPGImage from "./img/nonFieldRPGImage.png";
+import marioGameImage from "./img/marioGameImage.png";
 import neuralNetworkImage from "./img/neuralNetworkImage.jpg";
 
 const projects = [
