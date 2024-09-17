@@ -9,6 +9,10 @@ import teslaCloneImage from "./img/teslaCloneImage.png";
 import nonFieldRPGImage from "./img/nonFieldRPGImage.png";
 import marioGameImage from "./img/marioGameImage.png";
 import neuralNetworkImage from "./img/neuralNetworkImage.jpg";
+import ebookCommerceImage from "./img/ebookCommerceImage.png";
+import discordCloneImage from "./img/dicordCloneImage.png";
+import vegeketImage from "./img/vegeketImage.png";
+import bulletinBoardImage from "./img/bulletinBoardImage.png";
 
 const projects = [
   {
@@ -25,6 +29,59 @@ const projects = [
   },
   {
     id: 2,
+    title: "Discord Clone Website",
+    description: [
+      "Developed a Discord clone with real-time messaging capabilities using React, TypeScript, and Firebase.",
+      "Implemented user authentication with Firebase to manage secure user sign-ups and logins.",
+      "Created a real-time chat feature with Firebase Firestore, enabling instant messaging and seamless communication between users.",
+      "Leveraged TypeScript to ensure type safety and maintainability, improving the overall code quality.",
+    ],
+    thumbnail: discordCloneImage,
+    githubLink: "https://github.com/taiyo-ishiyama/discord-clone",
+    demoLink: "",
+    tools: ["TypeScript", "React", "Firebase"],
+  },
+  {
+    id: 3,
+    title: "E-Book Commerce Website",
+    description: [
+      "Developed a full-stack e-commerce application for selling e-books using TypeScript, Next.js, TailwindCSS, Prisma, and PostgreSQL.",
+      "Integrated Stripe for secure payment processing, providing a seamless checkout experience for users.",
+      "Optimised data fetching methods to improve website speed and performance, enhancing user experience.",
+    ],
+    thumbnail: ebookCommerceImage,
+    githubLink: "https://github.com/taiyo-ishiyama/book-commerce-app",
+    demoLink: "https://taiyo-ishiyama-book-commerce.vercel.app/",
+    tools: ["TypeScript", "Next.js", "Tailwind-css", "Prisma", "Postgre", "Stripe"],
+  },
+  {
+    id: 4,
+    title: "Vegetable EC Website",
+    description: [
+      "Developed a fully functional e-commerce website for selling vegetables using Django, Bootstrap, and Stripe.",
+      "Managed user accounts, purchase history, and cart functionality to enhance user engagement and experience.",
+      "Implemented features for order management and cart updates, improving overall site usability and customer satisfaction.",
+    ],
+    thumbnail: vegeketImage,
+    githubLink: "https://github.com/taiyo-ishiyama/vegeket",
+    demoLink: "https://drive.google.com/file/d/1d_un_8hIykVEihCjnrkLQ2oNkPhFw1IR/view?usp=sharing",
+    tools: ["Django", "Bootstrap", "Stripe"],
+  },
+  {
+    id: 5,
+    title: "Online Bulletin Board Platform",
+    description: [
+      "Built a real-time online bulletin board platform using PHP, SQL, and HTML/CSS to enable user interaction and community engagement.",
+      "Designed and developed features for posting, replying, and managing threads, fostering dynamic user conversations.",
+      "Implemented a robust database structure with SQL for efficient data storage and retrieval, ensuring fast and reliable performance.",
+    ],
+    thumbnail: bulletinBoardImage,
+    githubLink: "https://github.com/taiyo-ishiyama/forum_application",
+    demoLink: "https://drive.google.com/file/d/1Xnt33F1MuKI5J8cXbf0pt0p78rL9cr3m/view?usp=sharing",
+    tools: ["PHP", "HTML/CSS", "SQL"],
+  },
+  {
+    id: 6,
     title: "Netflix Clone Website",
     description: [
       "Imitated the Netflix website interface to create a functional clone.",
@@ -37,7 +94,7 @@ const projects = [
     tools: ["React", "Styled-Components", "Firebase", "Git"],
   },
   {
-    id: 3,
+    id: 7,
     title: "Disney Plus Clone Website",
     description: [
       "Created a clone of the Disney Plus website, replicating its layout and functionality.",
@@ -51,7 +108,7 @@ const projects = [
     tools: ["React", "Styled-Components", "Firebase", "MySQL", "Git"],
   },
   {
-    id: 4,
+    id: 8,
     title: "Mario Game with SFML",
     description: [
       "Developed a Mario-inspired 2D platformer game with a focus on smooth user interface and dynamic gameplay.",
@@ -66,7 +123,7 @@ const projects = [
     tools: ["C++", "SFML", "Git"],
   },
   {
-    id: 5,
+    id: 10,
     title: "Board Game",
     description: [
       "Designed and developed a Sudoku-like board game with expression completion and evaluation",
@@ -79,7 +136,7 @@ const projects = [
     tools: ["C++", "Git"],
   },
   {
-    id: 6,
+    id: 11,
     title: "Non Field RPG with Unity",
     description: [
       "Developed a 2D role-playing game using Unity.",
@@ -92,7 +149,7 @@ const projects = [
     tools: ["Unity", "C#", "Git"],
   },
   {
-    id: 7,
+    id: 12,
     title: "Dictionary Program",
     description: [
       "Developed a dictionary program for pattern-based word searches and length matching.",
@@ -104,7 +161,7 @@ const projects = [
     tools: ["C++", "Git"],
   },
   {
-    id: 8,
+    id: 13,
     title: "Tesla Clone Website",
     description: [
       "Built a clone of the Tesla official website, focusing on its sleek design and functionality.",
@@ -117,7 +174,7 @@ const projects = [
     tools: ["React", "Styled-Components", "Git"],
   },
   {
-    id: 9,
+    id: 14,
     title: "Neural Network",
     description: [
       "Developed a neural network to classify fashion items based on pixel data.",
@@ -130,7 +187,7 @@ const projects = [
     tools: ["Python", "Git"],
   },
   {
-    id: 10,
+    id: 15,
     title: "Factorization Program",
     description: [
       "Developed a number factorization program with multi-threaded client-server architecture",
@@ -142,7 +199,7 @@ const projects = [
     tools: ["C", "Git"],
   },
   {
-    id: 11,
+    id: 16,
     title: "Client-Server Game",
     description: [
       "Developed a multiplayer number-based game hosted on a server.",
