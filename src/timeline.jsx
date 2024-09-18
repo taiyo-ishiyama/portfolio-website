@@ -14,7 +14,7 @@ export default function Timeline({ defaultColor }) {
           "bg-orange-500",
         ];
 
-        const color = defaultColor || `bg-${element.color}-500`;
+        const color = `bg-${element.color}-500`;
 
         return (
           <div key={element.id} className="flex m-4 relative">

@@ -18,7 +18,7 @@ const timelineElements = [
     gpa: "GPA 3.92 / 4.00",
     date: "2020-2022",
     icon: "school",
-    color: "purple",
+    color: "blue",
     tech: ["Python", "C"],
   },
   {
@@ -29,8 +29,19 @@ const timelineElements = [
     gpa: "GPA 6.82 / 7.00",
     date: "2022-2025",
     icon: "school",
-    color: "yellow",
+    color: "blue",
     tech: ["Python", "C", "C++"],
+  },
+  {
+    id: 4,
+    title: "AKA Studio",
+    location: "Brisbane, Australia",
+    description: "Software Developer Internship",
+    gpa: "",
+    date: "2024",
+    icon: "work",
+    color: "yellow",
+    tech: ["Python", "Firebase",],
   },
 ];
 

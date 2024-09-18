@@ -90,7 +90,7 @@ function App() {
             <div className='container flex items-center flex-col xl:flex-row'>
               <div className='xl:mr-10 mb-10'>
                 <p className='pb-10'>
-                  I am a third-year student enrolled at Griffith University,
+                  I am a final-year student enrolled at Griffith University,
                   pursuing a degree in Computer Science with a major in Software
                   Development. My primary focus lies in the realm of software
                   engineering, with a keen interest in crafting seamless user
@@ -99,7 +99,7 @@ function App() {
                 <p>
                   Possessing an inherent curiosity and a robust motivation to
                   acquire new knowledge, I have explored programming languages
-                  such as C, C++, Python, and JavaScript within the academic
+                  such as C, C++, Python, PHP, and JavaScript/TypeScript within the academic
                   sphere and through personal projects. In addition to my formal
                   education, I am dedicated to expanding my linguistic
                   repertoire, aspiring to master both front-end and back-end
@@ -121,13 +121,13 @@ function App() {
       </section>
 
       <section
-        className='bg-gradient-to-b from-black to-gray-800 text-gray-200'
+        className='bg-gradient-to-b from-black to-gray-800 text-gray-200 pb-10'
         id='skills'
       >
-        <div className='container px-5 py-24 mx-auto'>
+        <div className='container px-5 py-24 mx-auto mb-20'>
           <div className='text-center mb-20'>
-            <h1 className='text-2xl sm:text-3xl font-medium mb-5'>
-              Experience
+            <h1 className='text-2xl sm:text-3xl font-medium pb-20'>
+              Skills and Experience
             </h1>
           </div>
           <Experience />
@@ -139,8 +139,8 @@ function App() {
         id='projects'
       >
         <div className='container px-5 py-24 mx-auto'>
-          <div className='text-center mb-20'>
-            <h1 className='text-2xl sm:text-3xl font-medium text-white mb-10'>
+          <div className='text-center mb-5'>
+            <h1 className='text-2xl sm:text-3xl font-medium text-white mb-5'>
               My projects
             </h1>
           </div>
