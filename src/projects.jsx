@@ -18,13 +18,13 @@ const ProjectShowcase = () => {
           <img src={project.thumbnail} alt={project.title} className="w-full h-48 object-cover" />
           <div className="px-6 py-4">
             <div className="text-gray-800 font-bold text-xl mb-2">{project.title}</div>
-            <p className="text-gray-700 text-base text-left">
+            <div className="text-gray-700 text-base text-left">
               <ul className="list-disc pl-4 mb-4">
                 {project.description.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}
               </ul>
-            </p>
+            </div>
             <div className="flex flex-wrap mb-6 justify-center pt-3 pb-10">
               {project.tools.map((tool, index) => (
                 <span
